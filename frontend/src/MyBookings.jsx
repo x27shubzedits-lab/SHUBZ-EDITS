@@ -17,7 +17,7 @@ useEffect(() => {
 
   const fetchBookings = () => {
     fetch(
-      `http://localhost:5000/api/bookings/user/${encodeURIComponent(
+      `http://https://shubz-edits-website.onrender.com/api/bookings/user/${encodeURIComponent(
         user.email
       )}`
     )
@@ -235,14 +235,14 @@ useEffect(() => {
             }}
           >
             <source
-              src={`http://localhost:5000/uploads/${file}`}
+              src={`http://https://shubz-edits-website.onrender.com/uploads/${file}`}
               type="video/mp4"
             />
             Your browser does not support the video tag.
           </video>
 
           <a
-            href={`http://localhost:5000/uploads/${file}`}
+            href={`http://https://shubz-edits-website.onrender.com/uploads/${file}`}
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -326,14 +326,14 @@ useEffect(() => {
             }}
           >
             <source
-              src={`http://localhost:5000/uploads/${file}`}
+              src={`http://https://shubz-edits-website.onrender.com/uploads/${file}`}
               type="video/mp4"
             />
             Your browser does not support the video tag.
           </video>
 
           <a
-            href={`http://localhost:5000/uploads/${file}`}
+            href={`http://https://shubz-edits-website.onrender.com/uploads/${file}`}
             target="_blank"
             rel="noopener noreferrer"
             style={{

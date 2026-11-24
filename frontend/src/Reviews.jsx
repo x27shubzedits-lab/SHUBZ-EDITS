@@ -10,7 +10,7 @@ function Reviews() {
   const user = JSON.parse(localStorage.getItem("user") || "null");
 
   const fetchReviews = () => {
-    fetch("http://localhost:5000/api/reviews")
+    fetch("http://https://shubz-edits-website.onrender.com/api/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data))
       .catch((error) => console.log(error));
@@ -29,7 +29,7 @@ function Reviews() {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/reviews", {
+      const response = await fetch("http://https://shubz-edits-website.onrender.com/api/reviews", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

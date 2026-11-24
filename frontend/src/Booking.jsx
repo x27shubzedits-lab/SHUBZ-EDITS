@@ -60,7 +60,7 @@ files.forEach((file) => {
 });
 
     try {
-     const response = await fetch("http://localhost:5000/api/bookings", {
+     const response = await fetch("http://https://shubz-edits-website.onrender.com/api/bookings", {
   method: "POST",
   body: uploadData,
 });

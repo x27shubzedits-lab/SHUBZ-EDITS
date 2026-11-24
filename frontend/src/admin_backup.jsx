@@ -14,7 +14,7 @@ function Admin() {
 
   const fetchBookings = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/bookings");
+      const response = await fetch("http://https://shubz-edits-website.onrender.com/api/bookings");
       const data = await response.json();
 
       setBookings(data);
@@ -32,7 +32,7 @@ function Admin() {
   const updateStatus = async (id, status) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/bookings/${id}/status`,
+        `http://https://shubz-edits-website.onrender.com/api/bookings/${id}/status`,
         {
           method: "PUT",
           headers: {

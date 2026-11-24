@@ -20,7 +20,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/api/register", {
+      const response = await fetch("http://https://shubz-edits-website.onrender.com/api/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
