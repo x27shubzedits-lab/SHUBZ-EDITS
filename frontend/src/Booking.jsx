@@ -36,6 +36,7 @@ useEffect(() => {
   };
 
   const handleSubmit = async (e) => {
+    alert("Booking button clicked!");
     e.preventDefault();
 
     const savedUser = localStorage.getItem("user");
